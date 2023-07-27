@@ -1,0 +1,245 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazine</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="heading">
+      <header id="header">
+        <img src="https://consumer.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt="Huawei Logo" loading="lazy" id="header-img">
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#caracteristicas">Características</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#huawei-health">Huawei Health</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#soporte-de-producto">Soporte de Producto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <section class="hero">
+      <h1 class="hero-title">HUAWEI WATCH GT 3</h1>
+      <p class="hero-subtitle">Batería de larga duración | Medición de Saturación de oxígeno (SpO2) 24/7 | 100+ modos de entrenamiento</p>
+    </section>
+    <section class="email">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="Ingrese Email Para mas Informacion.." >
+        <input type="submit" id="submit" class="buttom">
+      </form>
+    </section>
+    <section>
+      </div>
+      <div class="text">
+        <h2 id="caracteristicas" class="features">Características</h2>
+        <p>Compatible con los sistemas de satélites GPS, Beidou, GLONASS, Galileo y QZSS, este reloj ofrece un mayor rendimiento anti-interferencias, lo que mejora eficazmente la fuerza y la estabilidad de las señales de posicionamiento en exteriores. Tus entrenamientos pueden ser registrados con precisión y cada gota de sudor cuenta. Las señales de doble banda L1 y L5 de HUAWEI WATCH GT 3 proporcionan una mayor inmunidad a la señal, lo que permite un posicionamiento más preciso.</p>
+        <p>
+          HUAWEI WATCH GT 3 es compatible con carga inalámbrica5, por lo que puedes utilizar tu teléfono para realizar la carga inversa cuando te olvides del cargador5 y dejar de preocuparte por la duración de la batería. Con una carga completa el HUAWEI WATCH GT 3 46 mm tiene una duración hasta 14 días1 y HUAWEI WATCH GT 3 42 mm hasta 7 días1, por lo que estarás totalmente preparado para hacer un seguimiento de todos tus entrenamientos y no perderte ningún monitoreo de tu estado físico.
+        </p>
+        <p>
+          El reloj indica la hora de salida y puesta del sol, puedes ver las diferentes fases lunares y te mantiene informado de los cambios de las mareas en tiempo real. El barómetro de altitud incorporado mide la presión atmosférica actual en tiempo real y te avisa en caso de cambios drásticos antes de que se produzcan condiciones meteorológicas extremas, con HUAWEI WATCH GT 3 tendrás un compañero que dará mayor protección para tus aventuras al aire libre.
+        </p>
+        <p>
+          El HUAWEI WATCH GT 3 puede evaluar tu capacidad atlética basándose en tus datos históricos de running. Te proporcionará un plan científico y profesional para mejorar tus carreras6 diarias y tu preparación para la competencia, tanto si eres principiante como un corredor avanzado. Adicionalmente, te proporcionará un seguimiento completo. Durante el ciclo de entrenamiento, el programa de entrenamiento puede ajustarse de forma automática y periódica en función de la ejecución real de la carrera y de los nuevos datos, lo que te ayudará a mejorar la eficacia de tu entrenamiento y a alcanzar tus objetivos de carrera con mayor facilidad.
+        </p>
+        <h2 id="huawei-health" class="features">HUAWEI Health</h2>
+        <p>
+          Descarga la aplicación de salud de HUAWEI AppGallery empieza a mejorar tu vida saliendo de la zona de confort.
+        </p>
+<h2 id="soporte-de-producto" class="features">Soporte de Producto</h2>
+<p>
+  HUAWEI Chile ha formulado su póliza de garantía de acuerdo con las leyes y regulaciones relacionadas con la protección de los derechos e intereses del consumidor en Chile. La presente garantía proporciona el marco para devolver, reemplazar y reparar de los productos de Huawei.
+</p>
+    </section>
+    <section id="video-center">
+ <video id="video"src="https://consumer.huawei.com/content/dam/huawei-cbg-site/ecommerce/cl/overviews/watchgt3pro/Watch%20GT3%20Pro_Product%20Video_LA_Product%20Video_1min%2012s_20220311-comp.mp4" controls>
+ </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 60.5%;
+}
+
+body {
+  font-family: 'Raleway', serif;
+  color: black;
+  background-color: white;
+}
+
+h1,h2{
+font-family: Anton, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+#header-img{
+  width: 200px;
+  position: fixed;
+  left: 2px;
+  top: 2px;
+}
+  
+  #nav-bar{
+    position: fixed;
+    right: 2px;
+  }
+
+nav > ul {
+  width: 55vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  list-style: none;
+}
+
+.hero{
+  margin-top: 100px;
+}
+
+.hero-title{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+ .hero-title{
+   font-size: 35px;
+ } 
+}
+
+.hero-subtitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 600px){
+ .hero-subtitle{
+   font-size: 10px;
+ } 
+}
+
+.email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  text-align: center;
+  width:300px;
+  height: 60%;
+}
+
+.buttom{
+  width: 200px;
+}
+
+.text{
+  padding: 2px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+
+.text > h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+p{
+  margin-top: 5px;
+  font-size: 2vh;
+}
+
+@media only screen and (max-width:600px){
+  .text > h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+p{
+  margin-top: 5px;
+  font-size: 3vh;
+}
+
+}
+
+#huawei-health{
+  margin-top: 50px;
+}
+
+#soporte-de-producto{
+  margin-top: 50px;
+}
+
+#video-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video{
+  width: 70%;
+}
+
+section{
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 5px;
+}
+
+** end of undefined **
+
